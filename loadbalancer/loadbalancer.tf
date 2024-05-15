@@ -3,6 +3,7 @@
 //  location = "West Europe"
 //}
 
+/*
 resource "azurerm_public_ip" "example" {
   name                = "PublicIPForLB"
   location            = azurerm_resource_group.mcit420zz5um.location
@@ -20,3 +21,4 @@ resource "azurerm_lb" "example" {
     public_ip_address_id = azurerm_public_ip.example.id
   }
 }
+*/
