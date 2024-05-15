@@ -1,6 +1,6 @@
 module "network-security-group" {
   source                = "Azure/network-security-group/azurerm"
-  resource_group_name   = azurerm_resource_group.example.name
+  resource_group_name   = azurerm_resource_group.mcit420zz5um.name
   location              = "EastUS" # Optional; if not provided, will use Resource Group location
   security_group_name   = "nsg"
   source_address_prefix = ["10.0.3.0/24"]
